@@ -3,66 +3,321 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
+
 .common_color {
-  color: #fd6e0a;
+    color: #fd6e0a;
 }
 
 .btn {
-  color: #fff;
-  background-color: #fd6e0a;
-  border-radius: 5px;
-  border: 0px;
+    color: #fff;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: 0px;
 }
 
 .btn_hireMe {
-  padding: 20px 36px;
-  font-size: 20px;
-  font-weight: 400;
-  list-style: none;
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
 }
 
 /* NAVBAR STYLE */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
 }
 
 .nav_title {
-  color: #181818;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 nav li {
-  color: #474747;
-  font-size: 20px;
-  font-weight: 400;
-  list-style: none;
-  margin-right: 50px;
-  display: inline;
-  /* padding: 18px 36px; */
-  line-height: normal;
-  text-align: center;
-  border-radius: 5px;
-  align-items: center;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    margin-right: 50px;
+    display: inline;
+    line-height: normal;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
 }
 
 nav li a {
     text-decoration: none;
     padding: 18px 35px 19px 36px;
 }
+
 .active {
-  color: #fff;
-  background-color: #fd6e0a;
+    color: #fff;
+    background-color: #fd6e0a;
 }
+
 nav li a:active,
 a:hover {
     color: #fff;
-        background-color: #fd6e0a;
-        border-radius: 5px;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+}
+
+/* header related style*/
+
+.header_bgColor {
+    background: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/*Bannner related style*/
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+
+.banner .profile_image {
+    width: 500px;
+}
+
+.banner_greetings {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner_title {
+    color: #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px 0px 20px 0px;
+}
+
+.banner p {
+    color: #757575;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 30px;
+
+}
+
+.banner_btn1,
+.banner_btn2 {
+    padding: 20px 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner_btn2 {
+    color: #fd6e0a;
+    background-color: transparent;
+    border: 1px solid #fd6e0a;
+    margin-left: 30px;
+}
+
+/* Main section style*/
+main section {
+    margin: 130px 230px
+}
+
+
+/*About section style */
+.about_section {
+    align-items: center;
+    background: #FFF8F3;
+
+}
+
+.about_title {
+    text-align: center;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 131px;
+}
+
+.about_description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 157px 30px 157px;
+}
+
+.about_info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 179px 131px 179px;
+}
+
+.about_info p {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.about_info span {
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+/* What i do section style */
+.what-i-do {}
+
+.whatido_title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.whatido_desc {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 50px 157px;
+}
+
+.my_skills_set {
+    display: flex;
+    gap: 24px;
+}
+
+.skill_set {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+
+.skill_set img {}
+
+.skill_set h5 {
+    padding: 38px 0px 20px 0px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill_set p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+/*Resume section*/
+.resume_title {
+    text-align: center;
+}
+
+.edu_exp {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.edu {
+    /* margin-right: 24px; */
+}
+
+
+.edu_title,
+.exp_title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin-bottom: 30px; */
+}
+.edu_list,.exp_list{
+    border-bottom: 1px solid #D1D1D1 ;
+}
+.edu_list:last-child,.exp_list:last-child{
+    border-bottom: none;
+}
+.edu_list_title,
+.exp_list_title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.edu_list h4,
+.exp_list h4 {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.edu_list p,
+.exp_list p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0px 85px 30px 0px;
+    /* 175% */
 }
