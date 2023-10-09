@@ -142,7 +142,11 @@ a:hover {
 
 /* Main section style*/
 main section {
-    margin: 130px 230px
+    margin: 130px 230px;
+}
+
+main section:last-child {
+    margin-bottom: 0px;
 }
 
 
@@ -259,13 +263,21 @@ main section {
 
 /*Resume section*/
 .resume_title {
+    color: #181818;
     text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 113px 0px 130px 0px;
+
 }
 
 .edu_exp {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-bottom: 50px;
 }
 
 .edu {
@@ -283,12 +295,17 @@ main section {
     line-height: normal;
     /* margin-bottom: 30px; */
 }
-.edu_list,.exp_list{
-    border-bottom: 1px solid #D1D1D1 ;
+
+.edu_list,
+.exp_list {
+    border-bottom: 1px solid #D1D1D1;
 }
-.edu_list:last-child,.exp_list:last-child{
+
+.edu_list:last-child,
+.exp_list:last-child {
     border-bottom: none;
 }
+
 .edu_list_title,
 .exp_list_title {
     color: #474747;
@@ -320,4 +337,89 @@ main section {
     line-height: 28px;
     padding: 0px 85px 30px 0px;
     /* 175% */
+}
+
+.cv_button {
+    text-align: center;
+}
+
+/* connect and message section */
+section.connect_msg {
+    margin: 0;
+    background: #FFF8F3;
+}
+
+.connect_msg_block {
+    display: flex;
+    margin: 130px 230px 0px 230px;
+    padding: 130px 0px;
+}
+
+.connect_title,
+.message_title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.connect p {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 117px 30px;
+    /* 175% */
+}
+
+.connect img {
+    margin-right: 24px;
+}
+
+/* main>section.connect_msg {
+    margin-bottom: 0;
+} */
+
+input {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 18px 355px 18px 30px;
+    display: flex;
+    margin: 20px 0px;
+    max-width: 461px;
+}
+
+input[type=text],
+input[type=email],
+select {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    outline: #757575;
+    border: 1px solid #757575;
+
+
+}
+
+
+textarea {
+    max-width: 461px;
+    min-height: 180px;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 327px 18px 30px;
+    resize: none;
+    outline: #757575;
 }
