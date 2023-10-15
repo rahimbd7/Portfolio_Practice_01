@@ -423,3 +423,72 @@ textarea {
     resize: none;
     outline: #757575;
 }
+
+/* Responsive and media query */
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width:575px) {
+    .what-i-do, section.resume {
+        padding: 0;
+        margin: 0;
+    }
+
+    .my_skills_set,
+    .about_info,
+    .connect_msg_block,
+    .banner,nav, .edu_exp {
+        flex-direction: column;
+    }
+    nav li{
+        margin-bottom: 20px;
+    }
+    .banner{
+        justify-content: left;
+    }
+       
+
+    .whatido_desc {
+        padding: 0
+    }
+
+    .about_section,
+    .connect_msg,
+    .connect_msg_block,.header_bgColor,.banner{
+        padding: 0;
+        margin: 0;
+    }
+
+        .banner_btn1,.banner_btn2{
+         margin-left: 80px;
+        }
+    .banner h3, h2,p , .banner_btn1,.edu,.exp_list,.exp_title{
+        text-align: center;
+    }
+    .cv_button{
+        margin-bottom: 50px;
+    }
+    .about_description {
+        padding: 0
+    }
+
+    .connect_msg_block {
+        padding: 5px;
+    }
+
+    input {
+        padding: 18px 320px 18px 30px;
+    }
+
+    textarea {
+        padding: 18px 313px 18px 30px;
+    }
+
+    form {
+        margin: 5px;
+    }
+
+}
+
+@media screen and (min-width:575px) and (max-width:992px) {}
